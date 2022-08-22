@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-div-logo{
+    display: flex;
+    
+}
+.header-fonds p:first-child{
+    font-family:cursive;
+    font-size: 24px;
+}
+.header-fonds p:last-child{
+    font-size:10px;
+    color: rgba(0,0,0,0.4);
+}
+.header-scroll{
+    background: rgba(202, 202, 202, 0.63);
+    padding: 5px 210px;
+    z-index: 1;
+}
+.header-logo{
+    width: 36px ;
+}
+.header-nav{
+    display: flex;
+    gap: 5px;
+}
+
+/* .titel{
+    text-align: left;
+    align-items: center;
+    background-blend-mode: color;
+    padding: 100px 50px 0px;
+    align-items: center;
+    
+} */
+.titel p:first-child{
+    font-size:xx-large;
+    font-family:fantasy;
+}
+
+.titel p:last-child{
+    font-size:10px;
+    color: rgba(0,0,0,0.4);
+}
+
+.print img{
+    width: 26px ;
+}
+.print{
+    font-size: small;
+    color: rgba(0,0,0,0.4);
+}
+#grp-titel{
+    text-align: left;
+    align-items: center;
+    background-blend-mode: color;
+    padding: 100px 200px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.style-img-Ps img{
+    padding: 10px 200px 20px;
+}
+.style-img-Ps p{
+    padding: 10px 200px;
+    color: rgba(0,0,0,0.6);
+}
+
+.recipe{
+    padding: 20px;
+    background: url(./assets/list-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+}
+
+footer {
+    padding: 100px 200px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div:nth-child(1) {
+    display: flex;
+    gap: 20px
+}
+
+
+.owner div:nth-child(2) p {
+    font-size: 16px;
+    color: rgb(67, 66, 66);
+}
+
+.share-button input{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px 25px;
+    border: none;
+    color:white;
+    background: rgb(255, 0, 0);
+}
+
+.footer-bottom img{
+    width: 35px;
+    color: rgba(0,0,0,0.0.3);
+}
+.footer-bottom{
+    padding: 100px 200px 20px;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
